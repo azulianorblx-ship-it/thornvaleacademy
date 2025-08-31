@@ -177,7 +177,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
     await interaction.reply({ content: "Session info:", components: payload.components });
   }
 
-  // Add kick/ban/warn/timeout/announcement/modmail-close here as needed in same container format
+  // Add kick/ban/warn/timeout/announcement/modmail-close here as needed in same container forma
 });
 
 client.login(process.env.DISCORD_TOKEN);
